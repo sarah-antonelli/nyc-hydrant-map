@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About This Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .nav {
+            margin-bottom: 30px;
+        }
+
+        a {
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <a href="index.html">← Back to Map</a>
+    </div>
+
+    <h1>NYC Hydrant Analysis Map</h1>
+
+    <h2>Project Description</h2>
+
+    <p>
+        This interactive web map visualizes fire hydrant density and count across New York City neighborhoods.
+        The map was built using MapLibre GL JS and PMTiles to demonstrate efficient delivery
+        of vector tile datasets through a static website.
+
+        This project was completed as part of the Spatial Lab Modern GIS Accelerator and demonstrates 
+        deployment of vector tile datasets using PMTiles and MapLibre GL JS through GitHub Pages.
+    </p>
+
+    <h2>Data Sources</h2>
+
+    <ul>
+        <li>New York City fire hydrant inventory</li>
+        <li>NYC neighborhood boundaries</li>
+        <li>OpenStreetMap basemap data</li>
+    </ul>
+
+    <h2>Methodology</h2>
+
+    <ol>
+        <li>Aggregate hydrants by neighborhood.</li>
+        <li>Calculate hydrant density per square kilometer.</li>
+        <li>Create vector tiles using PMTiles.</li>
+        <li>Display the data using MapLibre GL JS.</li>
+    </ol>
+
+    <h2>Technology Stack</h2>
+
+    <ul>
+        <li>MapLibre GL JS</li>
+        <li>PMTiles</li>
+        <li>GitHub Pages</li>
+        <li>HTML, CSS, and JavaScript</li>
+    </ul>
+
+</body>
+</html>
