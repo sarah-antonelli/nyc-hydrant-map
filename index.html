@@ -68,26 +68,6 @@
             margin: 0;
             color: #555;
         }
-
-        #about-link {
-            position: absolute;
-            top: 10px;
-            right: 60px;
-            background: white;
-            padding: 8px 12px;
-            border-radius: 6px;
-            box-shadow: 0 1px 4px rgba(0,0,0,0.3);
-            z-index: 1;
-        }
-
-        #about-link a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        #about-link a:hover {
-            text-decoration: underline;
-        }
     </style>
 </head>
 <body>
@@ -113,16 +93,13 @@
             </option>
         </select>
     </div>
+    <div style="margin-top:10px;">
+        <a href="about.html">About this project</a>
+    </div>
 </div>
 
 <!-- Legend -->
 <div id="legend"></div>
-
-<!-- About this project -->
-
-<div id="about-link">
-    <a href="about.html">About this project</a>
-</div>
 
 <script>
     // ── Register the PMTiles protocol so MapLibre can read .pmtiles URLs ──
