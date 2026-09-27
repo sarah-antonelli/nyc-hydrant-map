@@ -1,10 +1,13 @@
 # NYC Hydrant Density Map
 
-🗺️ **[Live map](https://sarah-antonelli.github.io/nyc-hydrant-map/)**
-
 A web map showing NYC fire hydrant density and total count by neighborhood. Built using MapLibre, PMTiles, and GitHub Pages for free.
 
 ![Screenshot of the choropleth](images/density_choropleth.png)
+
+## Related Applications
+
+- **Public-facing map:** [NYC Hydrant Analysis by Neighborhood](https://sarah-antonelli.github.io/nyc-hydrant-map/) for quickly exploring hydrant density patterns across NYC neighborhoods.
+- **Interactive dashboard:** [NYC Hydrant Dashboard](https://nyc-hydrant-dashboard-sg.streamlit.app/) for filtering, ranking, and exploring detail.
 
 ## The question
 
